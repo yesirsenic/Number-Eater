@@ -83,6 +83,7 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Collections\Lists\ListContainsItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Collections\Dictionaries\DictionaryContainsKey.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Connections\ControlConnection.cs" />
+    <Compile Include="Library\PackageCache\org.khronos.unitygltf@84a8eb18c175\Runtime\Scripts\Interactivity\VisualScripting\Units\MaterialOffsetInterpolate.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Math\Round.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Variables\GetVariable.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Events\EventUnit.cs" />
@@ -159,6 +160,7 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Events\Input\InputSystem\OnInputSystemEvent.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Events\Lifecycle\Update.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Ports\IUnitValuePort.cs" />
+    <Compile Include="Library\PackageCache\org.khronos.unitygltf@84a8eb18c175\Runtime\Scripts\Interactivity\VisualScripting\Units\MaterialColorInterpolate.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Math\Angle.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Math\Vector4\Vector4MoveTowards.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Math\Vector4\Vector4Maximum.cs" />
@@ -191,6 +193,7 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Math\Scalar\ScalarSubtract.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Math\Vector3\Vector3Lerp.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Events\CustomEventArgs.cs" />
+    <Compile Include="Library\PackageCache\org.khronos.unitygltf@84a8eb18c175\Runtime\Scripts\Interactivity\VisualScripting\Units\MaterialFloatInterpolate.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Events\Physics\OnCollisionEnter.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Events\Editor\OnDrawGizmosSelected.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Dependencies\NCalc\BinaryExpression.cs" />
@@ -208,6 +211,7 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Dependencies\NCalc\SerializationVisitor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Control\SwitchUnit.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Control\SelectOnString.cs" />
+    <Compile Include="Library\PackageCache\org.khronos.unitygltf@84a8eb18c175\Runtime\Scripts\Interactivity\VisualScripting\Units\AbstractMaterialInterpolate.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Ports\IUnitControlPort.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Nulls\NullCheck.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Events\Physics\OnControllerColliderHit.cs" />
@@ -346,6 +350,7 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Math\Vector2\Vector2Round.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Events\Lifecycle\OnDisable.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Ports\ControlOutputDefinition.cs" />
+    <Compile Include="Library\PackageCache\org.khronos.unitygltf@84a8eb18c175\Runtime\Scripts\Interactivity\VisualScripting\Units\InterpolateMember.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\This.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Events\Input\OnMouseOver.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Math\Scalar\ScalarExponentiate.cs" />
@@ -416,6 +421,7 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Math\Sum.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Dependencies\NCalc\FunctionExpression.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Control\ForEach.cs" />
+    <Compile Include="Library\PackageCache\org.khronos.unitygltf@84a8eb18c175\Runtime\Scripts\Interactivity\VisualScripting\Units\InterpolateHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Ports\IUnitPort.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Variables\Obsolete\IVariableUnit.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Events\Physics\OnCollisionExit.cs" />
@@ -442,19 +448,22 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Collections\Lists\ClearList.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Time\WaitForEndOfFrameUnit.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Control\LoopUnit.cs" />
+    <Compile Include="Library\PackageCache\org.khronos.unitygltf@84a8eb18c175\Runtime\Scripts\Interactivity\VisualScripting\Units\MaterialScaleInterpolate.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Math\Vector4\Vector4Multiply.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Events\GUI\OnPointerDown.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Connections\IUnitRelation.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Events\Application\OnApplicationPause.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Math\Vector3\Vector3DotProduct.cs" />
+    <Compile Include="Library\PackageCache\org.khronos.unitygltf@84a8eb18c175\Runtime\Scripts\Interactivity\VisualScripting\Units\DebugLogGltf.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Events\Navigation\OnDestinationReached.cs" />
+    <Compile Include="Library\PackageCache\org.khronos.unitygltf@84a8eb18c175\Runtime\Scripts\Interactivity\VisualScripting\Units\VariableInterpolate.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Events\GUI\PointerEventUnit.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Math\Vector3\Vector3Subtract.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Events\Application\OnApplicationQuit.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Events\Animation\OnAnimatorMove.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Collections\Dictionaries\MergeDictionaries.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Variables\Obsolete\GetSavedVariable.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\EditorBinding\UnitSurtitleAttribute.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Variables\Obsolete\GetSavedVariable.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Graph\GetGraph.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Events\Physics2D\OnCollisionEnter2D.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Framework\Control\SelectOnEnum.cs" />
@@ -1047,6 +1056,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64\Runtime\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">

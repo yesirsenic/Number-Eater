@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Editor\ForceUnpackSelected.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\cm-help.zh-Hans.txt" />
@@ -769,6 +770,10 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
       <Private>False</Private>
@@ -1325,6 +1330,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityGLTF.Interactivity.VisualScripting.Export.Editor">
+      <HintPath>Library\ScriptAssemblies\UnityGLTF.Interactivity.VisualScripting.Export.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="PPv2URPConverters">
       <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
       <Private>False</Private>
@@ -1333,8 +1342,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityGLTF.Interactivity.VisualScripting.Editor">
+      <HintPath>Library\ScriptAssemblies\UnityGLTF.Interactivity.VisualScripting.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityGLTF.Interactivity.VisualScripting.Inspector">
+      <HintPath>Library\ScriptAssemblies\UnityGLTF.Interactivity.VisualScripting.Inspector.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityGLTFEditor">
+      <HintPath>Library\ScriptAssemblies\UnityGLTFEditor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.UnifiedRayTracing.Runtime">
@@ -1351,6 +1372,14 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityGLTF.Interactivity.VisualScripting.Runtime">
+      <HintPath>Library\ScriptAssemblies\UnityGLTF.Interactivity.VisualScripting.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="GLTFSerialization">
+      <HintPath>Library\ScriptAssemblies\GLTFSerialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.GPUDriven.Runtime">
@@ -1377,8 +1406,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityGLTFScripts">
+      <HintPath>Library\ScriptAssemblies\UnityGLTFScripts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityGLTF.Interactivity.VisualScripting.ExportPlugin">
+      <HintPath>Library\ScriptAssemblies\UnityGLTF.Interactivity.VisualScripting.ExportPlugin.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
@@ -1395,6 +1432,10 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityGLTF.Interactivity.Runtime">
+      <HintPath>Library\ScriptAssemblies\UnityGLTF.Interactivity.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.UI">
@@ -1415,13 +1456,13 @@
       <Project>{6EC78E7B-D49D-3C3D-F117-774329C9CACB}</Project>
       <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.AI.Navigation.Updater.csproj">
-      <Project>{133A5496-BDC5-9BC6-9F2C-D21D7507B761}</Project>
-      <Name>Unity.AI.Navigation.Updater</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{7FD74E48-B8FD-7C3C-1095-7FF3AD8C288F}</Project>
       <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Updater.csproj">
+      <Project>{133A5496-BDC5-9BC6-9F2C-D21D7507B761}</Project>
+      <Name>Unity.AI.Navigation.Updater</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.AI.Navigation.Editor.csproj">
       <Project>{1717AB0B-5DD9-8A78-4F3B-6325649F2C88}</Project>
