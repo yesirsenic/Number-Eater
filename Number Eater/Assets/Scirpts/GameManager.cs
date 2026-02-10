@@ -19,6 +19,9 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     Spawner spawner;
 
+    [SerializeField]
+    GameObject userNumber;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -70,5 +73,10 @@ public class GameManager : MonoBehaviour
 
             
         }
+    }
+
+    public void NumberUserChange()
+    {
+        userNumber.GetComponent<SumNumberChange>().RefreshNumberView();
     }
 }

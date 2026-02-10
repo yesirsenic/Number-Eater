@@ -8,6 +8,9 @@ public class Spawner : MonoBehaviour
     [Header("Prefabs")]
     [SerializeField] private GameObject[] prefabs;
 
+    [SerializeField]
+    private GameObject SpawnComp;
+
     public void SpawnRandom()
     {
         if (spawnPoints.Length == 0 || prefabs.Length == 0)
@@ -26,11 +29,13 @@ public class Spawner : MonoBehaviour
         GameObject randomPrefab =
             prefabs[randomIndex];
 
-        Instantiate(
+        GameObject NumberObject = Instantiate(
             randomPrefab,
             randomPoint.position,
             randomPoint.rotation
         );
+
+        NumberObject.transform.SetParent(SpawnComp.transform);
 
         GameManager.Instance.nowNumberSum += randomIndex + 1;
     }

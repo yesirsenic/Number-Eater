@@ -23,6 +23,7 @@ public class Number : MonoBehaviour
     public void NumberUp()
     {
         GameManager.Instance.getNumberSum += num;
+        GameManager.Instance.NumberUserChange();
         Debug.Log(GameManager.Instance.getNumberSum);
     }
 }

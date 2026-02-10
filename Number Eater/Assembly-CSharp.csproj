@@ -67,7 +67,9 @@
     <Compile Include="Assets\Scirpts\Spawner.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scirpts\GameManager.cs" />
+    <Compile Include="Assets\Scirpts\SumNumberChange.cs" />
     <Compile Include="Assets\Scirpts\UserMove.cs" />
+    <Compile Include="Assets\Scirpts\DestroyNumbers.cs" />
     <Compile Include="Assets\Scirpts\CameraFollow.cs" />
   </ItemGroup>
   <ItemGroup>
