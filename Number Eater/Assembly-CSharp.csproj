@@ -61,6 +61,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.5f2\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scirpts\NumberRunnerController.cs" />
     <Compile Include="Assets\Scirpts\Number.cs" />
     <Compile Include="Assets\Scirpts\DigitRoot.cs" />
     <Compile Include="Assets\Scirpts\PlayerDigit.cs" />

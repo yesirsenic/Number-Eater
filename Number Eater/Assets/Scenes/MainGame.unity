@@ -576,6 +576,8 @@ MonoBehaviour:
   numberSpeed: 0
   spawner: {fileID: 362402872}
   userNumber: {fileID: 2091128344}
+  goal_LinePrefab: {fileID: 4101044446192739508, guid: f8a67da1cb30a0c41b2babcd07a99b46, type: 3}
+  number_Comps: {fileID: 336508253}
 --- !u!4 &1149141073
 Transform:
   m_ObjectHideFlags: 0
@@ -1064,6 +1066,7 @@ GameObject:
   - component: {fileID: 2091128346}
   - component: {fileID: 2091128347}
   - component: {fileID: 2091128348}
+  - component: {fileID: 2091128349}
   m_Layer: 0
   m_Name: NumberUser
   m_TagString: User
@@ -1139,6 +1142,57 @@ MonoBehaviour:
   - {fileID: 8339639889498274638, guid: 476862cde0080b34eb5712f5b358942e, type: 3}
   numberRoot: {fileID: 2091128345}
   digitSpacing: -0.4
+--- !u!114 &2091128349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091128344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fbac8dd6c2629444bd3fbf75d076621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NumberRunnerController
+  distancePerNumber: 1
+  baseRunDuration: 2.5
+  maxRunDuration: 4
+  speedCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -2
+      outSlope: -2
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  characterVisual: {fileID: 2091128345}
+  minLeanAngle: 12
+  maxLeanAngle: 30
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

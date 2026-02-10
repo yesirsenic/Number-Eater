@@ -25,6 +25,9 @@ public class UserMove : MonoBehaviour
 
     void Update()
     {
+        if (GameManager.Instance.state != GameState.MainGame)
+            return;
+
         HandlePointerInput();
         ApplyMovement();
     }
