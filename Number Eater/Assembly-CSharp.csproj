@@ -61,7 +61,12 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.5f2\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scirpts\Number.cs" />
+    <Compile Include="Assets\Scirpts\DigitRoot.cs" />
+    <Compile Include="Assets\Scirpts\PlayerDigit.cs" />
+    <Compile Include="Assets\Scirpts\Spawner.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scirpts\GameManager.cs" />
     <Compile Include="Assets\Scirpts\UserMove.cs" />
     <Compile Include="Assets\Scirpts\CameraFollow.cs" />
   </ItemGroup>
