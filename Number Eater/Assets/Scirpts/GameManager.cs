@@ -15,11 +15,12 @@ public class GameManager : MonoBehaviour
     private int possible_NumberSum;
     private float spawnRate;
     private bool is_End;
+    
 
     public int nowNumberSum = 0;
     public int getNumberSum = 0;
     public float numberSpeed;
-
+    public bool is_Clear;
     public GameState state;
 
 
@@ -59,6 +60,7 @@ public class GameManager : MonoBehaviour
         }
         state = GameState.MainGame;
         is_End = false;
+        is_Clear = false;
         level = PlayerPrefs.GetInt("Level");
         nowNumberSum = 0;
         getNumberSum = 0;
@@ -120,5 +122,18 @@ public class GameManager : MonoBehaviour
     public void NumberUserChange()
     {
         userNumber.GetComponent<SumNumberChange>().RefreshNumberView();
+    }
+
+    public void SetClear()
+    {
+        if(getNumberSum >= goal)
+        {
+            is_Clear = true;
+        }
+    }
+
+    public void StartGameEndAniamtor()
+    {
+        userNumber.GetComponent<UserClear>().ClearAnimator();
     }
 }

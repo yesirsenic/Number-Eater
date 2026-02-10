@@ -574,6 +574,8 @@ MonoBehaviour:
   nowNumberSum: 0
   getNumberSum: 0
   numberSpeed: 0
+  is_Clear: 0
+  state: 0
   spawner: {fileID: 362402872}
   userNumber: {fileID: 2091128344}
   goal_LinePrefab: {fileID: 4101044446192739508, guid: f8a67da1cb30a0c41b2babcd07a99b46, type: 3}
@@ -1067,6 +1069,7 @@ GameObject:
   - component: {fileID: 2091128347}
   - component: {fileID: 2091128348}
   - component: {fileID: 2091128349}
+  - component: {fileID: 2091128350}
   m_Layer: 0
   m_Name: NumberUser
   m_TagString: User
@@ -1193,6 +1196,18 @@ MonoBehaviour:
   characterVisual: {fileID: 2091128345}
   minLeanAngle: 12
   maxLeanAngle: 30
+--- !u!114 &2091128350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091128344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84c092f6f8ed2584f9dde9e259510acc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UserClear
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

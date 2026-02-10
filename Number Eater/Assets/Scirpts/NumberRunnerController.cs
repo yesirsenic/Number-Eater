@@ -34,6 +34,8 @@ public class NumberRunnerController : MonoBehaviour
         if (runCoroutine != null)
             StopCoroutine(runCoroutine);
 
+
+        GameManager.Instance.SetClear();
         runCoroutine = StartCoroutine(RunForward(distance, currentNumber));
     }
 
@@ -47,7 +49,7 @@ public class NumberRunnerController : MonoBehaviour
         Vector3 dir = Vector3.forward;
         float moved = 0f;
 
-        float duration = baseRunDuration + Mathf.Log(number + 1f) * 0.25f;
+        float duration =1.351f * Mathf.Log(number + 1f) - 2.327f;
         duration = Mathf.Clamp(duration, 0.1f, maxRunDuration);
 
         float leanAngle = Mathf.Clamp(number * 0.8f, minLeanAngle, maxLeanAngle);
@@ -97,6 +99,8 @@ public class NumberRunnerController : MonoBehaviour
         // ✅ 여기선 거의 도착해있을 거라 스냅이 안 느껴짐
         transform.position = startPos + dir * distance;
         characterVisual.localRotation = Quaternion.Euler(0f, 180f, 0f);
+
+        GameManager.Instance.StartGameEndAniamtor();
     }
 
 }
