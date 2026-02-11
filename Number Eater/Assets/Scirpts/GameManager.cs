@@ -116,7 +116,9 @@ public class GameManager : MonoBehaviour
 
     void SetGoalLine(int goal_Num)
     {
-        Instantiate(goal_LinePrefab, new Vector3(0, -3.99f, goal_Num + 50), Quaternion.identity);
+        GameObject goalLine = Instantiate(goal_LinePrefab, new Vector3(0, -3.99f, goal_Num + 50), Quaternion.identity);
+
+        goalLine.GetComponent<GoalLine>().UpdateText(goal_Num.ToString());
     }
 
     public void NumberUserChange()
