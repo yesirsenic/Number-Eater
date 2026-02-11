@@ -17,7 +17,12 @@ public class Number : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.linearVelocity = transform.forward * GameManager.Instance.numberSpeed;
+        Vector3 nextPos =
+        rb.position + transform.forward *
+        GameManager.Instance.numberSpeed *
+        Time.fixedDeltaTime;
+
+        rb.MovePosition(nextPos);
     }
 
     public void NumberUp()

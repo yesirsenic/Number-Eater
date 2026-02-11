@@ -11,7 +11,8 @@ public class PlayerDigit : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("SpawnNumber"))
+
+        if (other.CompareTag("SpawnNumber"))
         {
             root.OnHit(other);
         }

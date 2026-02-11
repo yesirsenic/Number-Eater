@@ -143,7 +143,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -152,5 +152,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.023782656, y: 0.048038453, z: 0.0091252895}
-  m_Center: {x: -0.00039279263, y: 0.035885606, z: 0.0026840058}
+  m_Size: {x: 0.023782656, y: 0.048038453, z: 0.018172521}
+  m_Center: {x: -0.00039279263, y: 0.035885606, z: 0.0029920805}

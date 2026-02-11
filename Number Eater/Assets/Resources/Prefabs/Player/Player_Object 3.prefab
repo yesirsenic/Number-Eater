@@ -103,7 +103,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -112,8 +112,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.024258213, y: 0.048873402, z: 0.008377333}
-  m_Center: {x: 0.0007956843, y: 0.035714615, z: 0.0024023708}
+  m_Size: {x: 0.024258213, y: 0.048873402, z: 0.013069428}
+  m_Center: {x: 0.0007956843, y: 0.035714615, z: 0.0020008187}
 --- !u!114 &-8578404519088385237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,4 +152,4 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
