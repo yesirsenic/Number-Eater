@@ -65,6 +65,10 @@ public class UserClear : MonoBehaviour
         // 🔒 보정
         transform.localPosition = startPos;
         transform.localRotation = startRot;
+
+        yield return new WaitForSeconds(0.25f);
+
+        GameManager.Instance.GameEndPopupOn();
     }
 
     IEnumerator GameOver()
@@ -99,8 +103,13 @@ public class UserClear : MonoBehaviour
             yield return null;
         }
 
+       
         // 🔒 오차 보정
         transform.localRotation = startRot * Quaternion.Euler(-85f, 0f, 0f);
+
+        yield return new WaitForSeconds(0.25f);
+
+        GameManager.Instance.GameEndPopupOn();
     }
 
 

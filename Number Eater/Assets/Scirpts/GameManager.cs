@@ -36,6 +36,12 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     GameObject number_Comps;
 
+    [SerializeField]
+    GameObject Clear_Popup;
+
+    [SerializeField]
+    GameObject GameOver_Popup;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -137,5 +143,18 @@ public class GameManager : MonoBehaviour
     public void StartGameEndAniamtor()
     {
         userNumber.GetComponent<UserClear>().ClearAnimator();
+    }
+
+    public void GameEndPopupOn()
+    {
+        if(is_Clear)
+        {
+            Clear_Popup.SetActive(true);
+        }
+
+        else
+        {
+            GameOver_Popup.SetActive(true);
+        }
     }
 }
