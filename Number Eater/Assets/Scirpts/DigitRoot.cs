@@ -22,6 +22,8 @@ public class DigitRoot : MonoBehaviour
 
         Destroy(other.gameObject);
 
+        SFXManager.Instance.PlayShot(SFXType.GetNumber);
+
 
         StartCoroutine(UnlockNextPhysicsStep());
     }

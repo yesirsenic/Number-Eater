@@ -19,5 +19,10 @@ public class ButtonManager : MonoBehaviour
         GameManager.Instance.GameRetry();
     }
 
+    public void ButtonClickSound()
+    {
+        SFXManager.Instance.PlayShot(SFXType.ButtonClick);
+    }
+
     
 }

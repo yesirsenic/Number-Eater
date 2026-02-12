@@ -25,9 +25,26 @@ public class UserClear : MonoBehaviour
         Vector3 startPos = transform.localPosition;
         Quaternion startRot = transform.localRotation;
 
+        bool spinSoundPlayed = false;
+        bool jumpSoundPlayed = false;
+
+
         while (elapsed < totalDuration)
         {
             elapsed += Time.deltaTime;
+
+            if (!spinSoundPlayed && elapsed > 0f)
+            {
+                SFXManager.Instance.PlayShot(SFXType.GameClearTurn);
+                spinSoundPlayed = true;
+
+            }
+
+            if (!jumpSoundPlayed && elapsed >= 1f)
+            {
+                SFXManager.Instance.PlayShot(SFXType.GameClearJump);
+                jumpSoundPlayed = true;
+            }
 
             // =========================
             // Y 위치 계산
@@ -103,12 +120,15 @@ public class UserClear : MonoBehaviour
             yield return null;
         }
 
+        SFXManager.Instance.PlayShot(SFXType.GameOverFallDown);
+
        
         // 🔒 오차 보정
         transform.localRotation = startRot * Quaternion.Euler(-85f, 0f, 0f);
 
         yield return new WaitForSeconds(0.25f);
 
+        SFXManager.Instance.PlayShot(SFXType.GameOver);
         GameManager.Instance.GameEndPopupOn();
     }
 

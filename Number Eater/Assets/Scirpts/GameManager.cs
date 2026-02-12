@@ -50,6 +50,9 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     Text level_Text;
 
+    [SerializeField]
+    RunAudio runAudio;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -128,6 +131,7 @@ public class GameManager : MonoBehaviour
                 is_End = false;
                 state = GameState.GameEnd;
                 userNumber.GetComponent<NumberRunnerController>().RunStart();
+                runAudio.RunWindStart();
                 break;
 
             }
@@ -165,6 +169,7 @@ public class GameManager : MonoBehaviour
 
     public void StartGameEndAniamtor()
     {
+        runAudio.RunWindStop();
         userNumber.GetComponent<UserClear>().ClearAnimator();
     }
 

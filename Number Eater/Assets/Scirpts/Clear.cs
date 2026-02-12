@@ -23,23 +23,23 @@ public class Clear : MonoBehaviour
 
     public void StarSFXOn(int num)
     {
-        //switch(num)
-        //{
-        //    case 1:
-        //        SFXManager.Instance.PlayShot(SFXType.Star1);
-        //        break;
-        //    case 2:
-        //        SFXManager.Instance.PlayShot(SFXType.Star2);
-        //        break;
-        //    case 3:
-        //        SFXManager.Instance.PlayShot(SFXType.Star3);
-        //        break;
+        switch (num)
+        {
+            case 1:
+                SFXManager.Instance.PlayShot(SFXType.Star1);
+                break;
+            case 2:
+                SFXManager.Instance.PlayShot(SFXType.Star2);
+                break;
+            case 3:
+                SFXManager.Instance.PlayShot(SFXType.Star3);
+                break;
 
-        //}
+        }
     }
 
     public void GameClearTextOn()
     {
-        //SFXManager.Instance.PlayShot(SFXType.GameClearText);
+        SFXManager.Instance.PlayShot(SFXType.GameClearText);
     }
 }
