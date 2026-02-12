@@ -226,8 +226,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\Configuration\EncryptionConfigurationDialog.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\EnumExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\UVCSToolbar\PopupWindow\ToolbarMouseBoundary.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\Views\Changesets\ChangesetsListHeaderState.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\Views\Diff\DiffSelection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\Views\Changesets\ChangesetsListHeaderState.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\Gluon\UpdateReport\ErrorListViewItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\Views\CreateWorkspace\Dialogs\RepositoryExplorerDialog.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\Views\PendingChanges\ChangeTreeViewItem.cs" />
@@ -405,8 +405,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\Settings\DiffAndMergeOptionsFoldout.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\Views\Changesets\ChangesetExplorerView.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\AssetMenu\ProjectViewCloudDriveAssetMenu.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\UI\GetWindowIfOpened.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\UVCSToolbar\PopupWindow\Operations\ControlledPopupOperations.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\UI\GetWindowIfOpened.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\Views\PendingChanges\ChangeCategoryTreeViewItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\Views\Locks\LocksTab.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\CloudDrive\Welcome\WelcomeView.cs" />
@@ -414,8 +414,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\ExternalLink.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\UI\UnityInternals\UnityEditor\SavedGUIState.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\Views\FileSystemOperation.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\Views\Labels\Dialogs\CreateLabelView.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\UI\EntryBuilder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\Views\Labels\Dialogs\CreateLabelView.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\Views\DateFilter.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\Views\Merge\Developer\MergeOptionsDialog.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\Views\Branch\BranchesViewMenu.cs" />
@@ -496,9 +496,9 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\FindWorkspace.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\CloudDrive\Workspaces\DirectoryContent\DeleteWorkspaceDialog.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\UI\SortOrderComparer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\UI\ResponseType.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\Configuration\CloudEdition\Welcome\SignInPanel.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\Views\Diff\ClientDiffTreeViewItem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\UI\ResponseType.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\Views\PendingChanges\CommentTextArea.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\CloudDrive\Workspaces\Tree\CloudWorkspacesSelection.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Editor\Views\CreateWorkspace\Dialogs\RepositoryListViewItem.cs" />

@@ -85,6 +85,7 @@
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\semantic.zh-Hant.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\xdiff.zh-Hant.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\basecommands.en.txt" />
+    <None Include="Assets\ExternalDependencyManager\Editor\1.2.186\Google.IOSResolver.dll" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\workspaceserver.zh-Hans.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\xdiff.ja.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\clientcommon.zh-Hant.txt" />
@@ -122,23 +123,28 @@
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\workspaceserver.ko.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\semantic.ko.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\cm.zh-Hant.txt" />
+    <None Include="Assets\ExternalDependencyManager\Editor\Google.VersionHandler.dll" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\cm.ja.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\unityplastic.dll" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\i3.ja.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\images.ko.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\guihelp.zh-Hant.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\mergetool.es.txt" />
+    <None Include="Assets\ExternalDependencyManager\Editor\1.2.186\Google.PackageManagerResolver.dll" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\configurehelper.en.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\common.en.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\clientcommon.ko.txt" />
+    <None Include="Assets\ExternalDependencyManager\Editor\1.2.186\Google.VersionHandlerImpl.dll" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\mergetool.ja.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\FileSystemWatcherLicense.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\images.es.txt" />
+    <None Include="Assets\ExternalDependencyManager\Editor\external-dependency-manager_version-1.2.186_manifest.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\mergetool.ko.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\basecommands.zh-Hans.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\guihelp.en.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\guihelp.zh-Hans.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\workspaceserver.en.txt" />
+    <None Include="Assets\ExternalDependencyManager\Editor\1.2.186\Google.JarResolver.dll" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\workspaceserver.es.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\basecommands.es.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Localization\i3.en.txt" />
@@ -734,6 +740,10 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="GoogleMobileAds.Common">
+      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
@@ -742,12 +752,24 @@
       <HintPath>Library\PackageCache\com.unity.ext.nunit@d8c07649098d\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="GoogleMobileAds">
+      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.IOSResolver">
+      <HintPath>Assets\ExternalDependencyManager\Editor\1.2.186\Google.IOSResolver.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Core">
+      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="log4netPlastic">
@@ -762,12 +784,40 @@
       <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>Assets\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\unityplastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="GoogleMobileAds.Ump.Unity">
+      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Ump.Unity.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.PackageManagerResolver">
+      <HintPath>Assets\ExternalDependencyManager\Editor\1.2.186\Google.PackageManagerResolver.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Ump">
+      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Ump.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.VersionHandlerImpl">
+      <HintPath>Assets\ExternalDependencyManager\Editor\1.2.186\Google.VersionHandlerImpl.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.JarResolver">
+      <HintPath>Assets\ExternalDependencyManager\Editor\1.2.186\Google.JarResolver.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Unity">
+      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Unity.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json">
@@ -1448,13 +1498,33 @@
       <Project>{1FB7D588-990B-27A5-26D3-F8BB1A1CC64C}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Purchasing.SecurityStub.csproj">
+      <Project>{E08842DC-464F-678D-2BB2-42FCDC909DF5}</Project>
+      <Name>Unity.Purchasing.SecurityStub</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.csproj">
+      <Project>{54BAE172-9C00-27E7-7214-EAFA031F7029}</Project>
+      <Name>Unity.Services.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.AI.Navigation.csproj">
       <Project>{AEDA8F79-85BC-D81C-1FA5-D6FE98890984}</Project>
       <Name>Unity.AI.Navigation</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEditor.Purchasing.csproj">
+      <Project>{25CB02AD-8606-8B7D-E536-CD4FC492D9F0}</Project>
+      <Name>UnityEditor.Purchasing</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
       <Project>{6EC78E7B-D49D-3C3D-F117-774329C9CACB}</Project>
       <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="GoogleMobileAds.Editor.csproj">
+      <Project>{A6797D44-9EFC-6A3C-F104-343F3739F3DB}</Project>
+      <Name>GoogleMobileAds.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Purchasing.csproj">
+      <Project>{2295CF9C-52C4-87DD-D812-690DE1FE6BF0}</Project>
+      <Name>Unity.Purchasing</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{7FD74E48-B8FD-7C3C-1095-7FF3AD8C288F}</Project>
@@ -1480,9 +1550,17 @@
       <Project>{1398573B-7604-0A87-D5D6-EDF3C2EC8B30}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Purchasing.Utilities.csproj">
+      <Project>{666E56DA-5C5E-25CC-6840-99542351ADCD}</Project>
+      <Name>Unity.Purchasing.Utilities</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Burst.Editor.csproj">
       <Project>{726CD50F-45BC-672A-0DCB-20EE46CF67D6}</Project>
       <Name>Unity.Burst.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Purchasing.Stores.csproj">
+      <Project>{9420BBB4-391B-F4D3-A765-0B4E1D2C5E0A}</Project>
+      <Name>Unity.Purchasing.Stores</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
       <Project>{4585EA56-A0BD-BC18-5538-EFED31484DBB}</Project>
@@ -1492,9 +1570,17 @@
       <Project>{6879F271-A00F-A770-B02D-7154B0C04A44}</Project>
       <Name>Unity.Mathematics.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Components.csproj">
+      <Project>{15983FA9-AF98-D90B-991E-2B0EFD1E83EE}</Project>
+      <Name>Unity.Services.Core.Components</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
       <Project>{13680916-9523-9C8E-7CC0-A628E9E23DB3}</Project>
       <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
+      <Project>{423AD51D-B196-6659-F0FD-D01293B10054}</Project>
+      <Name>Unity.Services.Core.Analytics</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.AI.Navigation.Editor.ConversionSystem.csproj">
       <Project>{022E5B71-C72B-6D4C-13A2-CBF037E1FFE6}</Project>
@@ -1528,9 +1614,17 @@
       <Project>{7C6DB6CA-151F-6C96-8F61-EB5D0B8B3602}</Project>
       <Name>Unity.VisualScripting.State.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Purchasing.SecurityCore.csproj">
+      <Project>{ECD8B9DF-A644-6F6C-4E52-3903EBE9936B}</Project>
+      <Name>Unity.Purchasing.SecurityCore</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{C5CB6168-C503-7360-DE64-EEFB7BD9875E}</Project>
       <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Environments.csproj">
+      <Project>{7CFB28D8-BF76-2CAA-FB62-1D98D530AA95}</Project>
+      <Name>Unity.Services.Core.Environments</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.csproj">
       <Project>{4DCE34AA-298C-E8BB-FD0A-881F1BD001EE}</Project>
@@ -1551,6 +1645,10 @@
     <ProjectReference Include="Unity.InputSystem.csproj">
       <Project>{E7A26DBF-A73B-B3FE-A1F6-5492840DAC42}</Project>
       <Name>Unity.InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Purchasing.Codeless.csproj">
+      <Project>{B35C0750-9052-3FB9-8672-84BC6C2A7184}</Project>
+      <Name>Unity.Purchasing.Codeless</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

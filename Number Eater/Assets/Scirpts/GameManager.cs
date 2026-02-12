@@ -172,11 +172,13 @@ public class GameManager : MonoBehaviour
     {
         if(is_Clear)
         {
+            AdsManager.Instance.OnGameClear();
             Clear_Popup.SetActive(true);
         }
 
         else
         {
+            AdsManager.Instance.OnGameOver();
             GameOver_Popup.SetActive(true);
         }
     }
