@@ -42,6 +42,11 @@ public class UserMove : MonoBehaviour
 
         if (Pointer.current.press.wasPressedThisFrame)
         {
+            if(PlayerPrefs.GetInt("Tutorial") == 0)
+            {
+                GameManager.Instance.TutorialOff();
+            }
+
             isDragging = true;
             pointerStartPos = Pointer.current.position.ReadValue();
             startX = targetX;
@@ -51,8 +56,8 @@ public class UserMove : MonoBehaviour
             Vector2 currentPos = Pointer.current.position.ReadValue();
 
             // 화면 비율
-            float deltaRatio =
-                (currentPos.x - pointerStartPos.x) / Screen.width;
+            float delta = currentPos.x - pointerStartPos.x;
+            float deltaRatio = delta / 500f;
 
             // 월드 이동 범위 기준
             float moveRange = maxX * 2f;

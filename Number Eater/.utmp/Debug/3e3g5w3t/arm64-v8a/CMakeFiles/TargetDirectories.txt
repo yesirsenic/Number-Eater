@@ -1,0 +1,5 @@
+D:/Github/Number-Eater/Number Eater/.utmp/Debug/3e3g5w3t/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/Github/Number-Eater/Number Eater/.utmp/Debug/3e3g5w3t/arm64-v8a/CMakeFiles/rebuild_cache.dir
+D:/Github/Number-Eater/Number Eater/.utmp/Debug/3e3g5w3t/arm64-v8a/GameActivity/CMakeFiles/game.dir
+D:/Github/Number-Eater/Number Eater/.utmp/Debug/3e3g5w3t/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+D:/Github/Number-Eater/Number Eater/.utmp/Debug/3e3g5w3t/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

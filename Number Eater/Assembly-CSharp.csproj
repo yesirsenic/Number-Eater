@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scirpts\GameManager.cs" />
     <Compile Include="Assets\Scirpts\SumNumberChange.cs" />
     <Compile Include="Assets\Scirpts\IAPManager.cs" />
+    <Compile Include="Assets\Scirpts\PerformanceSettings.cs" />
     <Compile Include="Assets\Scirpts\UserMove.cs" />
     <Compile Include="Assets\Scirpts\DestroyNumbers.cs" />
     <Compile Include="Assets\Scirpts\CameraFollow.cs" />

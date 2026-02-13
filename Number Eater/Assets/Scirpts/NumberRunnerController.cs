@@ -29,7 +29,7 @@ public class NumberRunnerController : MonoBehaviour
     public void RunStart()
     {
         int currentNumber = GameManager.Instance.getNumberSum;
-        float distance = currentNumber * distancePerNumber + 50f;
+        float distance = currentNumber * distancePerNumber;
 
         if (runCoroutine != null)
             StopCoroutine(runCoroutine);

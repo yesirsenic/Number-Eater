@@ -53,6 +53,9 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     RunAudio runAudio;
 
+    [SerializeField]
+    GameObject Tutorial;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -79,6 +82,13 @@ public class GameManager : MonoBehaviour
         {
             Destroy(goalLine);
         }
+
+        if (PlayerPrefs.GetInt("Tutorial") == 0)
+        {
+            Tutorial.SetActive(true);
+            return;
+        }
+
         state = GameState.MainGame;
         is_End = false;
         is_Clear = false;
@@ -142,7 +152,7 @@ public class GameManager : MonoBehaviour
 
     void SetGoalLine(int goal_Num)
     {
-        goalLine = Instantiate(goal_LinePrefab, new Vector3(0, -3.99f, goal_Num + 50), Quaternion.identity);
+        goalLine = Instantiate(goal_LinePrefab, new Vector3(0, -3.99f, goal_Num), Quaternion.identity);
 
         goalLine.GetComponent<GoalLine>().UpdateText(goal_Num.ToString());
     }
@@ -190,6 +200,13 @@ public class GameManager : MonoBehaviour
 
     public void GameRetry()
     {
+        __Init__();
+    }
+
+    public void TutorialOff()
+    {
+        Tutorial.SetActive(false);
+        PlayerPrefs.SetInt("Tutorial", 1);
         __Init__();
     }
 }
